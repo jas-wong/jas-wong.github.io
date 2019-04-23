@@ -1,15 +1,17 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+Ph.D. student interested in fluid-structure interactions, active and passive coupled control of mechanical properties and flow-induced vibration, and computational and experimental methods for studying aeroelasticity in avian flight.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My research investigates the influence of wing morphing on the mechanical properties of the soft tissue as well as the multi-element, feathered flight surface, and how these changes in mechanical properties will affect the wing's aeroelastic response during flight. I use a combination of experimental materials testing and vibrometry and computational fluid-structure interaction simulations.
+
+The remaining 90% of my personality is all about climbing. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jwong@zoology.ubc.ca](mailto:jwong@zoology.ubc.ca)
