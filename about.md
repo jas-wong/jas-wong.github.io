@@ -15,3 +15,9 @@ The remaining 90% of my personality is all about climbing.
 ### Contact me
 
 [jwong@zoology.ubc.ca](mailto:jwong@zoology.ubc.ca)
+
+#3309-6270 University Blvd.
+Department of Zoology
+University of British Columbia
+Vancouver, B.C.
+V6T 1Z4
