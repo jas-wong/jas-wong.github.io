@@ -3,8 +3,8 @@ layout: page
 title: Research
 permalink: /research/
 ---
-### Multi-scale Fluid Dynamics
+### Current Projects
 
-### Dynamic structures
+### Past Projects
 
-### Aeroelastic Flutter in Nature
+
