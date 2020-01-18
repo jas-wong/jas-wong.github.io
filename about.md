@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /about/
 ---
-### test
+
 Ph.D. student interested in fluid-structure interactions, active and passive coupled control of mechanical properties and flow-induced vibration, and computational and experimental methods for studying aeroelasticity in avian flight.
 
 ### More Information
