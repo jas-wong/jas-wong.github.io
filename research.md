@@ -1,6 +1,6 @@
 ---
 layout: page
-title: test
+title: Research
 permalink: /research/
 ---
 ### Multi-scale Fluid Dynamics
