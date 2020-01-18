@@ -5,7 +5,7 @@ permalink: /research/
 ---
 ### Current Projects
 <a href="/_posts/ffint.md">
-<img border="0" alt="FFINT" src="/images/ffint.png" width="400" height="200">
+<img border="0" alt="FFINT" src="/images/ffint.png" width="300" height="200">
 </a></br>
 
 ### Past Projects
