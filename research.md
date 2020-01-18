@@ -32,30 +32,15 @@ permalink: /research/
 
 <div class="row">
   <div class="column">
-    <img src="/images/ffint.png" alt="ffint" style="width:100%">
+    <img src="/images/ffint.png" alt="ffint" style="height=200">
   </div>
   <div class="column">
-    <img src="/images/Q criterion.png" alt="cfd" style="width:100%">
+    <img src="/images/Q criterion.png" alt="cfd" style="height=200">
   </div>
   <div class="column">
-    <img src="/images/_1070256.JPG" alt="feamorph" style="width:100%">
+    <img src="/images/_1070256.JPG" alt="feamorph" style="height=200">
   </div>
 </div>
 
 </body>
 </html>
-
-### Current Projects
-<a src="/research_pages/ffint.md">
-<img border="0" alt="FFINT" src="/images/ffint.png" height="200">
-</a>
-<a src="/research_pages/ffint.md">
-<img border="0" alt="cfd" src="/images/Q criterion.png" height="200">
-</a>
-<a src="/research_pages/ffint.md">
-<img border="0" alt="feamorph" src="/images/_1070256.JPG" height="200">
-</a></br>
-
-### Past Projects
-
-
