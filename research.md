@@ -28,8 +28,7 @@ permalink: /research/
 </head>
 <body>
 
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
+<h3>Current Projects</h3>
 
 <div class="row">
   <div class="column">
