@@ -4,6 +4,9 @@ title: Research
 permalink: /research/
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 * {
   box-sizing: border-box;
@@ -22,6 +25,26 @@ permalink: /research/
   display: table;
 }
 </style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="/images/ffint.png" alt="ffint" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/Q criterion.png" alt="cfd" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/_1070256.JPG" alt="feamorph" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
 
 ### Current Projects
 <a src="/research_pages/ffint.md">
