@@ -16,8 +16,13 @@
       <header>
         <h1 id="project_title">{{ "Jasmin C. M. Wong" }}</a></h1>
         
-        <img class="circular--square" src="/images/photo.jpg" alt="my picture" width="500" height="275">
-        
+        <img src="/images/photo.jpg" alt="my picture" width="500" height="275">
+        .circular--square {
+          border-top-left-radius: 50% 50%;
+          border-top-right-radius: 50% 50%;
+          border-bottom-right-radius: 50% 50%;
+          border-bottom-left-radius: 50% 50%;
+        }
         <h2><a href="/about/">About Me</a></h2>
         <h2><a href="/research/">Research</a></h2>
         <h2><a href="/research/">CV</a></h2>
