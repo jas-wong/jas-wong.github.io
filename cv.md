@@ -6,4 +6,6 @@ permalink: /cv/
 
 Please find my CV <a href="/files/Jasmin Wong CV 2019.pdf">here</a>! (last updated: August 2019)
 
+<object data="{{ Jasmin Wong CV 2019.pdf }}" width="1000" height="1000" type='application/pdf'/>
+
 
