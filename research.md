@@ -41,5 +41,6 @@ permalink: /research/
   </div>
 </div>
 
+<h3>Past Projects</h3>
 </body>
 </html>
