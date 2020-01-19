@@ -2,6 +2,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.img-container {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+.img-container img {
+    height: 100%;
+}
 * {
   box-sizing: border-box;
 }
@@ -71,7 +79,9 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
+    <div class="img-container">
     <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
+    </div>
   </div>
   <div class="column">
     <img src="/images/Q criterion.png" alt="cfd" style="width:100%" onclick="myFunction(this);">
