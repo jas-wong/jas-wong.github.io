@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,8 +64,8 @@ body {
 <body>
 
 <div style="text-align:center">
-  <h2>Tabbed Image Gallery</h2>
-  <p>Click on the images below:</p>
+  <h3>Current Projects</h3>
+  <p>Click on the images below for more information:</p>
 </div>
 
 <!-- The four columns -->
