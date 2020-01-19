@@ -7,10 +7,6 @@ permalink: /research/
 <html>
 <head>
 <style>
-img {
-  background-size: cover;
-  height: 150px;
-}
 * {
   box-sizing: border-box;
 }
