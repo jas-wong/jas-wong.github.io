@@ -4,7 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -38,7 +37,7 @@ permalink: /research/
     <img src="/images/Q criterion.png" alt="cfd" style="height=200">
   </div>
   <div class="column">
-    <img src="/images/_1070256.JPG" alt="feamorph" style="height=200">
+    <img src="/images/feathers.JPG" alt="feamorph" style="height=200">
   </div>
 </div>
 
