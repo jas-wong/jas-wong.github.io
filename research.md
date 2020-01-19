@@ -7,6 +7,9 @@ permalink: /research/
 <html>
 <head>
 <style>
+img {
+  border-radius: 50%;
+}
 * {
   box-sizing: border-box;
 }
@@ -15,6 +18,8 @@ permalink: /research/
   float: left;
   width: 33.33%;
   padding: 5px;
+  background-size:cover;
+  background-position:center;
 }
 
 /* Clearfix (clear floats) */
