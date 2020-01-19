@@ -8,7 +8,7 @@ permalink: /research/
 <head>
 <style>
 img {
-  border-radius: 50%;
+  background-size: cover;
 }
 * {
   box-sizing: border-box;
