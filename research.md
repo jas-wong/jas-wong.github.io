@@ -75,7 +75,7 @@ body {
     <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="/images/Q criterion" alt="cfd" style="width:100%" onclick="myFunction(this);">
+    <img src="/images/Q criterion.png" alt="cfd" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
     <img src="/images/feathers.JPG" alt="feamorph" style="width:100%" onclick="myFunction(this);">
