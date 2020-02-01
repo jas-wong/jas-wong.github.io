@@ -74,6 +74,10 @@ body {
   background-color: #008CBA;
 }
 
+.container:hover .overlay {
+  opacity: 1;
+}
+
 .text {
   color: white;
   font-size: 20px;
