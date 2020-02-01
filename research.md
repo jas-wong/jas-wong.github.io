@@ -46,13 +46,12 @@
 </head>
 <body>
 
-<h2>Fade in Overlay</h2>
-<p>Hover over the image to see the effect.</p>
+<h3>Current Projects</h3>
 
 <div class="container">
   <img src="/images/ffint.png" alt="ffint" class="image">
   <div class="overlay">
-    <div class="text">Wing Morphing Induced Changes in Stiffness</div>
+    <div class="text">test</div>
   </div>
 </div>
 
