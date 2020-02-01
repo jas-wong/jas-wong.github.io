@@ -50,7 +50,7 @@
 <div class="container">
   <img src="/images/ffint.png" alt="ffint" class="image">
   <div class="overlay">
-    <div class="text">test</div>
+    <div class="text">Wing Morphing</div>
   </div>
 </div>
 
