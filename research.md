@@ -24,7 +24,7 @@ body {
   cursor: pointer; 
 }
 
-.column img:hover .overlay {
+.column img:hover {
   opacity: 1;
 }
 
@@ -101,12 +101,7 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <div class="container">
-      <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
-      <div class="overlay">
-        <div class="text">Hello World</div>
-      </div>
-    </div>
+    <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
     <img src="/images/Q criterion.png" alt="cfd" style="width:100%" onclick="myFunction(this);">
