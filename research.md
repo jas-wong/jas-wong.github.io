@@ -98,9 +98,6 @@ body {
 <div class="row">
   <div class="column">
     <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
-    <div class="overlay">
-      <div class="text">Wing Morphing Induced Stiffness Changes</div>
-    </div>
   </div>
   <div class="column">
     <img src="/images/Q criterion.png" alt="cfd" style="width:100%" onclick="myFunction(this);">
