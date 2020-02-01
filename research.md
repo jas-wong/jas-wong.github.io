@@ -101,9 +101,11 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
-    <div class="overlay">
-      <div class="text">Hello World</div>
+    <div class="container">
+      <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
+      <div class="overlay">
+        <div class="text">Hello World</div>
+      </div>
     </div>
   </div>
   <div class="column">
