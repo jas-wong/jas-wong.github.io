@@ -24,7 +24,7 @@ body {
   cursor: pointer; 
 }
 
-.column img:hover {
+.column img:hover .overlay {
   opacity: 1;
 }
 
@@ -89,6 +89,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 </style>
 </head>
 <body>
@@ -98,7 +99,7 @@ body {
   <p>Click on the images below for more information:</p>
 </div>
 
-<!-- The four columns -->
+<!-- The 3 columns -->
 <div class="row">
   <div class="column">
     <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
