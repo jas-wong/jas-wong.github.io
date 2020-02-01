@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +23,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #2AAD95;
 }
 
 .container:hover .overlay {
