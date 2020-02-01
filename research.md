@@ -36,6 +36,7 @@ body {
   transition: .5s ease;
   background-color: #008CBA;
 }
+
 .column img:hover .overlay {
   opacity: 1;
 }
@@ -115,6 +116,9 @@ body {
 <div class="row">
   <div class="column">
     <img src="/images/ffint.png" alt="ffint" style="width:100%" onclick="myFunction(this);">
+    <div class="overlay">
+      <div class="text">Hello World</div>
+    </div>
   </div>
   <div class="column">
     <img src="/images/Q criterion.png" alt="cfd" style="width:100%" onclick="myFunction(this);">
