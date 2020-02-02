@@ -54,5 +54,19 @@
   </div>
 </div>
 
+<div class="container">
+  <img src="/images/Q criterion.png" alt="cfd" class="image">
+  <div class="overlay">
+    <div class="text">FSI Numerical Methods</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="/images/feathers.JPG" alt="momocs" class="image">
+  <div class="overlay">
+    <div class="text">Feather Asymmetry</div>
+  </div>
+</div>
+
 </body>
 </html>
