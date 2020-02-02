@@ -69,6 +69,31 @@
   background-color: #f1f1f1;
 }
 
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 </style>
 </head>
 <body>
@@ -116,7 +141,7 @@
 <div class="row">
   <div class="column">
     <div class="img-container">
-      <img src="/images/sliposi.png" alt="aorta" class="image">
+      <img src="/images/sliposi.png" alt="aorta" class="image" onclick="myFunction(this);">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
@@ -127,6 +152,19 @@
   </div>
 </div>
 
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+<!--
 <script>
 var coll = document.getElementsByClassName("container");
 var i;
@@ -141,7 +179,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script>
+</script> -->
 
 </body>
 </html>
