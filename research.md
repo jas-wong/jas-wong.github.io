@@ -60,14 +60,13 @@
   text-align: center;
 }
 
-/* Collapsed text */
+/* Expandable text container */
 .content {
   position: relative;
   padding: 0 12px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  width: 100%;
 }
 
 /* Closable button inside the image */
@@ -139,18 +138,28 @@
 </div>
 
 <!-- The expanding image container -->
-<div class="container">
+<div class="content">
   <!-- Close the image -->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
-  <!-- Expanded image -->
+  <!-- Expanded content -->
   <img id="expandedcontent" style="width:100%">
+
 </div>
 
+function myFunction(imgs) {
+  // Get the expanded content
+  var expandcontent = document.getElementById("expandedcontent");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+} 
+
+<!--
 <script>
 var coll = document.getElementsByClassName("container");
 var i;
-
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -162,7 +171,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script>
+</script> -->
 
 </body>
 </html>
