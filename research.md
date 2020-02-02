@@ -22,7 +22,8 @@
 
 .thumbnail {
   position: relative;
-  width: 100%;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
 }
 .thumbnail img {
