@@ -82,6 +82,9 @@
         <div class="text">Changing Stiffness by Wing Morphing</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
   <div class="column">
     <div class="container">
@@ -90,6 +93,9 @@
         <div class="text">FSI Modelling</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
   <div class="column">
     <div class="container">
@@ -97,6 +103,9 @@
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
       </div>
+    </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
     </div>
   </div>
 </div>
