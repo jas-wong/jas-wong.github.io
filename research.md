@@ -79,6 +79,12 @@
   cursor: pointer;
 }
 
+/* The expanding image container */
+.expanding-container {
+  position: relative;
+  display: none;
+}
+
 </style>
 </head>
 <body>
@@ -137,7 +143,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="expanding-container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <img id="expandedImg" style="width:100%">
   <div id="imgtext"></div>
