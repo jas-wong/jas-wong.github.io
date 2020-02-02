@@ -62,10 +62,21 @@
 
 /* Collapsed text */
 .content {
+  position: relative;
   padding: 0 12px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 </style>
@@ -120,9 +131,9 @@
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
     </div>
-    <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+  </div>
+  <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 </div>
 
