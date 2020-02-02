@@ -20,6 +20,27 @@
   display: table;
 }
 
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -67,7 +88,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="container">
+    <div class="thumbnail">
       <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
         <div class="text">Changing Stiffness by Wing Morphing</div>
@@ -75,7 +96,7 @@
     </div>
   </div>
   <div class="column">
-    <div class="container">
+    <div class="thumbnail">
       <img src="/images/Q criterion.png" alt="cfd" class="image">
       <div class="overlay">
         <div class="text">FSI Modelling</div>
@@ -83,7 +104,7 @@
     </div>
   </div>
   <div class="column">
-    <div class="container">
+    <div class="thumbnail">
       <img src="/images/feathers.JPG" alt="momocs" class="image">
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
