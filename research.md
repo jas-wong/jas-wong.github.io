@@ -9,8 +9,8 @@
 
 .column {
   float: left;
-  width: 33.33%;
-  padding: -100px;
+  width: 50%;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
