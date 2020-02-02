@@ -13,16 +13,6 @@
   padding: 5px;
 }
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -79,31 +69,6 @@
   background-color: #f1f1f1;
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-
 </style>
 </head>
 <body>
@@ -151,7 +116,7 @@
 <div class="row">
   <div class="column">
     <div class="img-container">
-      <img src="/images/sliposi.png" alt="aorta" class="image" onclick="myFunction(this);">
+      <img src="/images/sliposi.png" alt="aorta" class="image">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
@@ -160,18 +125,6 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
-</div>
-
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
 </div>
 
 <!--
