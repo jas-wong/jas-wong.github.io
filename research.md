@@ -126,7 +126,7 @@
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="/images/sliposi.png" alt="aorta" class="image">
+      <img src="/images/sliposi.png" alt="aorta" class="image" onclick="myFunction(this);">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
@@ -135,6 +135,15 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedcontent" style="width:100%">
 </div>
 
 <script>
