@@ -127,7 +127,6 @@
   </div>
 </div>
 
-<!--
 <script>
 var coll = document.getElementsByClassName("container");
 var i;
@@ -142,7 +141,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script> -->
+</script>
 
 </body>
 </html>
