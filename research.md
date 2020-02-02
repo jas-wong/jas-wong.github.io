@@ -13,6 +13,16 @@
   padding: 5px;
 }
 
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
