@@ -20,7 +20,7 @@
   display: table;
 }
 
-.container {
+.img-container {
   position: relative;
   width: 100%;
 }
@@ -44,7 +44,7 @@
   background-color: #2AAD95;
 }
 
-.container:hover .overlay {
+.img-container:hover .overlay {
   opacity: 1;
 }
 
@@ -77,7 +77,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="container">
+    <div class="img-container">
       <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
         <div class="text">Changing Stiffness by Wing Morphing</div>
@@ -88,7 +88,7 @@
     </div>
   </div>
   <div class="column">
-    <div class="container">
+    <div class="img-container">
       <img src="/images/Q criterion.png" alt="cfd" class="image">
       <div class="overlay">
         <div class="text">FSI Modelling</div>
@@ -99,7 +99,7 @@
     </div>
   </div>
   <div class="column">
-    <div class="container">
+    <div class="img-container">
       <img src="/images/feathers.JPG" alt="momocs" class="image">
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
@@ -115,7 +115,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="container">
+    <div class="img-container">
       <img src="/images/sliposi.png" alt="aorta" class="image">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
