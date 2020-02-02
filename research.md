@@ -20,7 +20,7 @@
   display: table;
 }
 
-.container {
+.button {
   position: relative;
   width: 100%;
 }
@@ -78,14 +78,11 @@
 
 <div class="row">
   <div class="column">
-    <div class="container">
+    <div class="button">
       <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
         <div class="text">Changing Stiffness by Wing Morphing</div>
       </div>
-    </div>
-    <div class="content">
-      <p>Lorem ipsum...</p>
     </div>
   </div>
   <div class="column">
@@ -95,9 +92,6 @@
         <div class="text">FSI Modelling</div>
       </div>
     </div>
-    <div class="content">
-      <p>Lorem ipsum...</p>
-    </div>
   </div>
   <div class="column">
     <div class="container">
@@ -105,9 +99,6 @@
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
       </div>
-    </div>
-    <div class="content">
-      <p>Lorem ipsum...</p>
     </div>
   </div>
 </div>
@@ -122,14 +113,11 @@
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
     </div>
-    <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
   </div>
 </div>
 
 <script>
-var coll = document.getElementsByClassName("container");
+var coll = document.getElementsByClassName("button");
 var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
