@@ -10,7 +10,7 @@
 .column {
   float: left;
   width: 33.33%;
-  padding: 1px;
+  padding: 0px;
 }
 
 /* Clearfix (clear floats) */
