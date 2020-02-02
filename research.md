@@ -31,7 +31,7 @@
   height: auto;
 }
 
-.overlay {
+.active, .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
