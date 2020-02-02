@@ -44,7 +44,7 @@
   background-color: #2AAD95;
 }
 
-.active, .container:hover .overlay {
+.container:hover .overlay {
   opacity: 1;
 }
 
@@ -67,7 +67,6 @@
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  width:100%
 }
 
 </style>
@@ -84,6 +83,9 @@
         <div class="text">Changing Stiffness by Wing Morphing</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
   <div class="column">
     <div class="container">
@@ -92,6 +94,9 @@
         <div class="text">FSI Modelling</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
   <div class="column">
     <div class="container">
@@ -99,6 +104,9 @@
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
       </div>
+    </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
     </div>
   </div>
 </div>
@@ -113,11 +121,14 @@
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
   </div>
 </div>
 
 <script>
-var coll = document.getElementsByClassName("button");
+var coll = document.getElementsByClassName("container");
 var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
