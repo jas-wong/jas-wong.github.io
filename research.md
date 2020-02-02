@@ -68,7 +68,7 @@
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="/images/ffint.png" alt="ffint" class="image" style="width:100%">
+      <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
         <div class="text">Wing Morphing Induced Changes in Stiffness</div>
       </div>
@@ -76,7 +76,7 @@
   </div>
   <div class="column">
     <div class="container">
-      <img src="/images/Q criterion.png" alt="cfd" class="image" style="width:100%">
+      <img src="/images/Q criterion.png" alt="cfd" class="image">
       <div class="overlay">
         <div class="text">FSI Numerical Methods</div>
       </div>
@@ -84,7 +84,7 @@
   </div>
   <div class="column">
     <div class="container">
-      <img src="/images/feathers.JPG" alt="momocs" class="image" style="width:100%">
+      <img src="/images/feathers.JPG" alt="momocs" class="image">
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
       </div>
