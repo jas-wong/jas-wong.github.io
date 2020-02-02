@@ -50,7 +50,7 @@
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 18.72px;
   position: absolute;
   top: 50%;
   left: 50%;
