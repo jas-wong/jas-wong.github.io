@@ -20,7 +20,7 @@
   display: table;
 }
 
-.button {
+.container {
   position: relative;
   width: 100%;
 }
@@ -44,7 +44,7 @@
   background-color: #2AAD95;
 }
 
-.active, .button:hover .overlay {
+.active, .contaner:hover .overlay {
   opacity: 1;
 }
 
@@ -78,7 +78,7 @@
 
 <div class="row">
   <div class="column">
-    <div class="button">
+    <div class="container">
       <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
         <div class="text">Changing Stiffness by Wing Morphing</div>
