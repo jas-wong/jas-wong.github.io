@@ -69,11 +69,6 @@
   background-color: #f1f1f1;
 }
 
-/* Create an active/current tablink class */
-.container.active {
-  background-color: #2AAD95;
-}
-
 </style>
 </head>
 <body>
@@ -121,7 +116,7 @@
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="/images/sliposi.png" alt="aorta" class="image" onclick="myFunction(event, 'London');">
+      <img src="/images/sliposi.png" alt="aorta" class="image">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
@@ -132,27 +127,6 @@
   </div>
 </div>
 
-<div id="aorta" class="content">
-  <h4>Multi-scale Haemodynamics</h4>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<script>
-function myFunction(evt, topic) {
-  var i, content, container;
-  content = document.getElementsByClassName("content");
-  for (i = 0; i < content.length; i++) {
-    content[i].style.display = "none";
-  }
-  container = document.getElementsByClassName("container");
-  for (i = 0; i < container.length; i++) {
-    container[i].className = container[i].className.replace(" active", "");
-  }
-  document.getElementById(topic).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-<!--
 <script>
 var coll = document.getElementsByClassName("container");
 var i;
@@ -167,7 +141,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script> -->
+</script>
 
 </body>
 </html>
