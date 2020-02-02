@@ -69,21 +69,6 @@
   background-color: #f1f1f1;
 }
 
-/* The expanding image container */
-.exp-container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
 /* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
@@ -151,7 +136,7 @@
   </div>
 </div>
 
-<div class="exp-container">
+<div class="content">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <img id="expandedImg" style="width:100%">
   <div id="imgtext"></div>
