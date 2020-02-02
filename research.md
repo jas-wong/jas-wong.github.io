@@ -69,22 +69,6 @@
   background-color: #f1f1f1;
 }
 
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-
-/* The expanding image container */
-.expanding-container {
-  position: relative;
-  display: none;
-}
-
 </style>
 </head>
 <body>
@@ -143,25 +127,6 @@
   </div>
 </div>
 
-<div class="expanding-container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
-function myFunction(imgs) {
-  // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
-} 
-<!--
 <script>
 var coll = document.getElementsByClassName("container");
 var i;
@@ -176,7 +141,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script> -->
+</script>
 
 </body>
 </html>
