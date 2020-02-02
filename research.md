@@ -44,7 +44,7 @@
   background-color: #2AAD95;
 }
 
-.container:hover .overlay {
+.active, .container:hover .overlay {
   opacity: 1;
 }
 
