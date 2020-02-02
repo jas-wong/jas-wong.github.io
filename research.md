@@ -31,7 +31,7 @@
   height: auto;
 }
 
-.active, .overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -44,7 +44,7 @@
   background-color: #2AAD95;
 }
 
-.container:hover .overlay {
+.container:hover .overlay .active{
   opacity: 1;
 }
 
