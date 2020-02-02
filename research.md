@@ -92,5 +92,18 @@
   </div>
 </div>
 
+<h3>Past Projects</h3>
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="/images/sliposi.png" alt="aorta" class="image">
+      <div class="overlay">
+        <div class="text">Multi-scale Haemodynamics</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
