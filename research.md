@@ -70,7 +70,7 @@
     <div class="container">
       <img src="/images/ffint.png" alt="ffint" class="image">
       <div class="overlay">
-        <div class="text">Wing Morphing Induced Changes in Stiffness</div>
+        <div class="text">Changing Stiffness by Wing Morphing</div>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@
     <div class="container">
       <img src="/images/Q criterion.png" alt="cfd" class="image">
       <div class="overlay">
-        <div class="text">FSI Numerical Methods</div>
+        <div class="text">FSI Modelling</div>
       </div>
     </div>
   </div>
