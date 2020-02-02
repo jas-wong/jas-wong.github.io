@@ -2,6 +2,24 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -47,24 +65,30 @@
 
 <h3>Current Projects</h3>
 
-<div class="container">
-  <img src="/images/ffint.png" alt="ffint" class="image">
-  <div class="overlay">
-    <div class="text">Wing Morphing Induced Changes in Stiffness</div>
+<div class="row">
+  <div class="column">
+    <div class="container">
+      <img src="/images/ffint.png" alt="ffint" class="image">
+      <div class="overlay">
+        <div class="text">Wing Morphing Induced Changes in Stiffness</div>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="container">
-  <img src="/images/Q criterion.png" alt="cfd" class="image">
-  <div class="overlay">
-    <div class="text">FSI Numerical Methods</div>
+  <div class="column">
+    <div class="container">
+      <img src="/images/Q criterion.png" alt="cfd" class="image">
+      <div class="overlay">
+        <div class="text">FSI Numerical Methods</div>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="container">
-  <img src="/images/feathers.JPG" alt="momocs" class="image">
-  <div class="overlay">
-    <div class="text">Feather Asymmetry</div>
+  <div class="column">
+    <div class="container">
+      <img src="/images/feathers.JPG" alt="momocs" class="image">
+      <div class="overlay">
+        <div class="text">Feather Asymmetry</div>
+      </div>
+    </div>
   </div>
 </div>
 
