@@ -9,7 +9,7 @@
 
 .column {
   float: left;
-  width: 50%;
+  width: 33.33%;
   padding: 5px;
 }
 
@@ -22,7 +22,7 @@
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
