@@ -10,7 +10,7 @@
 .column {
   float: left;
   width: 33.33%;
-  padding: 0px;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -68,7 +68,7 @@
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="/images/ffint.png" alt="ffint" class="image">
+      <img src="/images/ffint.png" alt="ffint" class="image" style="width:100%">
       <div class="overlay">
         <div class="text">Wing Morphing Induced Changes in Stiffness</div>
       </div>
@@ -76,7 +76,7 @@
   </div>
   <div class="column">
     <div class="container">
-      <img src="/images/Q criterion.png" alt="cfd" class="image">
+      <img src="/images/Q criterion.png" alt="cfd" class="image" style="width:100%">
       <div class="overlay">
         <div class="text">FSI Numerical Methods</div>
       </div>
@@ -84,7 +84,7 @@
   </div>
   <div class="column">
     <div class="container">
-      <img src="/images/feathers.JPG" alt="momocs" class="image">
+      <img src="/images/feathers.JPG" alt="momocs" class="image" style="width:100%">
       <div class="overlay">
         <div class="text">Feather Asymmetry</div>
       </div>
