@@ -65,7 +65,7 @@
   background-color: #2AAD95;
 }
 
-.container:hover .overlay {
+.thumbnail:hover .overlay {
   opacity: 1;
 }
 
