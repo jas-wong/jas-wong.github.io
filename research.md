@@ -137,25 +137,24 @@
   </div>
 </div>
 
-<!-- The expanding image container -->
-<div class="content">
-  <!-- Close the image -->
+<div class="container">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded content -->
-  <img id="expandedcontent" style="width:100%">
-
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
 </div>
 
 function myFunction(imgs) {
-  // Get the expanded content
-  var expandcontent = document.getElementById("expandedcontent");
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
   // Use the same src in the expanded image as the image being clicked on from the grid
   expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 } 
-
 <!--
 <script>
 var coll = document.getElementsByClassName("container");
