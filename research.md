@@ -76,6 +76,7 @@
 
 <h3>Current Projects</h3>
 
+<!-- Buttons -->
 <div class="row">
   <div class="column">
     <div class="container">
@@ -108,30 +109,46 @@
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="/images/sliposi.png" alt="aorta" class="image">
+      <img src="/images/sliposi.png" alt="aorta" class="image" onclick="myFunction(event, 'aorta')">
       <div class="overlay">
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
     </div>
-    <div class="content">
   </div>
+</div>
+  
+<!-- content -->
+<div id="ffint" class="content">
+  <h3>FFINT</h3>
+  <p>Wing folding increases feather anchoring stiffness near joints.</p>
+</div>
+<div id="cfd" class="content">
+  <h3>FSI</h3>
+  <p>Increasing tissue stiffness... </p>
+</div>
+<div id="feamorph" class="content">
+  <h3>Feather Morphology</h3>
+  <p>Assymmetry increases towards to distal wing.</p>
+</div>
+<div id="aorta" class="content">
+  <h3>Multi-scale Haemodynamics</h3>
+  <p>Endothelial cell shape change affects local measurements of wall shear stress.</p>
 </div>
 
 <script>
-var coll = document.getElementsByClassName("container");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+function myFunctiony(evt, proj) {
+  var i, content, container;
+  content = document.getElementsByClassName("content");
+  for (i = 0; i < content.length; i++) {
+    content[i].style.display = "none";
+  }
+  container = document.getElementsByClassName("container");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = container[i].className.replace(" active", "");
+  }
+  document.getElementById(proj).style.display = "block";
+  evt.currentTarget.className += " active";
 }
-</script>
 
 </body>
 </html>
