@@ -20,7 +20,7 @@
   display: table;
 }
 
-.img-container {
+.container {
   position: relative;
   width: 100%;
 }
