@@ -60,6 +60,14 @@
   text-align: center;
 }
 
+/* Collapsed text */
+.content {
+  padding: 0 12px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 </style>
 </head>
 <body>
@@ -103,8 +111,28 @@
         <div class="text">Multi-scale Haemodynamics</div>
       </div>
     </div>
+    <div class="content">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
 </div>
+
+<script>
+var coll = document.getElementsByClassName("container");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 </html>
