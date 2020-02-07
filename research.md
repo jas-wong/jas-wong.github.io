@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
-  background-color: #777;
+  background-color: #7D9994;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -16,7 +15,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #2AAD95;
 }
 
 .content {
@@ -45,7 +44,8 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-
+</br>
+</br>
 
 <h3>Past Projects</h3>
 
