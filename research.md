@@ -20,7 +20,7 @@
 }
 
 .content {
-  padding: 36px 0px 18px 0px;
+  padding: 18px 0px 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
