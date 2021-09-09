@@ -34,7 +34,7 @@
 
 <button class="collapsible">Wing Morphing Induced Changes to Local Mechanical Properties</button>
 <div class="content">
-  <p>
+  <p> 
     The avian wing is unique in that all active morphing elements are concentrated at the leading edge while the majority of the flight surface is made up of passive, flexible elements. As active morphing changes the overall wing shape, how does the coupled rearrangement of these passive elements affect local stiffness and damping capabilities?</p>
 </div>
 <button class="collapsible">Effects of Wing Stiffness Change to Aeroelastic Responses</button>
