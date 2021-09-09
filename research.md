@@ -32,17 +32,17 @@
 
 <h3>Current Projects</h3>
 
-<button class="collapsible">Wing Morphing Induced Changes to Local Stiffness</button>
+<button class="collapsible">Wing Morphing Induced Changes to Local Mechanical Properties</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>The avian wing is unique in that all active morphing elements are concentrated at the leading edge while the majority of the flight surface is made up of passive, flexible elements. As active morphing changes the overall wing shape, how does the coupled rearrangement of these passive elements affect local stiffness and damping capabilities?</p>
 </div>
-<button class="collapsible">Effects of Tissue Stiffness Change to Aeroelastic Responses</button>
+<button class="collapsible">Effects of Wing Stiffness Change to Aeroelastic Responses</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>In flight, birds morph their wings to adjust to changing environmental conditions and behavioural goals. Wing morphing induces the rearrangement of a multi-material, multi-component structure resulting in changes in wing stiffness as well as a change in overall shape. Fluid-structure interaction computational modelling is used to explore how wing shape and coupled stiffness changes are beneficial or detrimental under different flight conditions.</p>
 </div>
-<button class="collapsible">Feather Asymmetry and its Relation to Dynamic Aeroelastic Responses</button>
+<button class="collapsible">Comparative Feather Morphology on Aerostructural Performance</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Feather shape varies dramatically within a wing and between species. With data collected from over 20 species, we explore how individual feather shape, the spacing between them, and their orientation relative to the airflow can affect aeroelastic response and aerodynamic performance. </p>
 </div>
 
 <h3></h3>
@@ -51,7 +51,6 @@
 
 <button class="collapsible">Multi-scale Modelling of Endothelial Cell Shape on Aorta Haemodynamics</button>
 <div class="content">
-  
   <p>Wall shear stress (WSS) has been linked to the development of many cardiovascular diseases, including atherosclerosis and aneurysms. The pathology of these diseases is dictated by biological processes regulated by shear-sensitive endothelial cells (ECs) lining the blood vessel which morph in response to WSS signals. The computational fluid simulations commonly used to study the biomechanical mechanisms of human atherosclerosis cases have not accounted for this variable EC shape.</p>
     
   <p>We developped a computationally inexpensive multiscale algorithm to investigated the effects of microscopic EC morphology on WSS in macroscopic, realistic aorta models. The inclusion of EC geometry resulted in an increase of low time-averaged WSS and high oscillatory shear index (OSI) areas, and large differences in time-dependent WSS in cases with pathologically disturbed flow.</p>
