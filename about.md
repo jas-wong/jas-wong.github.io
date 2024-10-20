@@ -4,20 +4,18 @@ title:
 permalink: /about/
 ---
 
-Ph.D. student interested in fluid-structure interactions, active and passive coupled control of mechanical properties and flow-induced vibration, and computational and experimental methods for studying aeroelasticity in avian flight.
+Post-doc studying things that wiggle in the wind. 
 
-### More Information
+I am a Canadian currently living in the United Kingdom studying fluid-structure interactions in nature. In particular, I look at how interspecific variation or behavioural changes in posture can adapt aeroelastic responses to improve performance across a range of functions. Currently I am working on a project to study how bird feathers can encode flow information during flight through feather vibrations. 
 
-My research investigates the influence of wing morphing on the mechanical properties of the soft tissue as well as the multi-element, feathered flight surface, and how these changes in mechanical properties will affect the wing's aeroelastic response during flight. I use a combination of experimental materials testing and vibrometry and computational fluid-structure interaction simulations.
-
-The remaining 90% of my personality is all about climbing. 
+In my spare time, I enjoy some climbing up mountains, skiing back down, and descending in to the depths of caves. 
 
 ### Contact me
 
-[jwong@zoology.ubc.ca](mailto:jwong@zoology.ubc.ca)
+[jasmin.wong@bristol.ac.uk](mailto:jasmin.wong@bristol.ac.uk)
 
-#3309-6270 University Blvd.<br/>
-Department of Zoology<br/>
-University of British Columbia<br/>
-Vancouver, B.C.<br/>
-V6T 1Z4
+1.68 Queen's Building.<br/>
+University Walk<br/>
+University of Bristol<br/>
+Bristol, United Kingdom<br/>
+BS8 1TR
