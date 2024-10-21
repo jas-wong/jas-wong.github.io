@@ -4,7 +4,7 @@
 <style>
   
 .collapsible {
-  background-color: #82C7D6;
+  background-color: #8DCDE7;
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -18,7 +18,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #8CB0B7;
+  background-color: #467ACE;
 }
 
 .content {
