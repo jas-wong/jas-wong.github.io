@@ -9,7 +9,8 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
   text-align: left;
   outline: 0.5px solid #000000;
   outline-radius: 10px;
