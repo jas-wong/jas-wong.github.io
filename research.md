@@ -39,7 +39,7 @@
 
 <button class="collapsible">Wing morphing-induced effects on aeroelastic responses during gliding flight</button>
 <div class="content">
-  <p>Wing morphing induces the rearrangement of a multi-material, multi-component feathered structure to effect a shape change. This project quantifies the associated changes in <i>in situ<\i> mechanical properties and then makes use of fluid-structure interaction numerical methods to explore how coupling changes in stiffness to wing morphing change the aeroelastic responses to gliding flight at different speeds.</p>
+  <p>Wing morphing induces the rearrangement of a multi-material, multi-component feathered structure to effect a shape change. This project quantifies the associated changes in <i>in situ</i> mechanical properties and then makes use of fluid-structure interaction numerical methods to explore how coupling changes in stiffness to wing morphing change the aeroelastic responses to gliding flight at different speeds.</p>
 </div>
 
 <button class="collapsible">Interspecific variation in feather structure</button>
@@ -51,8 +51,6 @@
 <div class="content">
   <p>In a collaboration with Dr Clementine Bodin and Dr Sarah Woolley at McGill University, we are exploring zebra finch learning behaviour in regards to flight and making use of optimisation analysis to postulate the motivation driving learned behaviour.</p>
 </div>
-
-<h3></h3>
 
 <h3>Past Projects</h3>
 
