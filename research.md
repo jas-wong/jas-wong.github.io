@@ -10,6 +10,7 @@
   padding: 18px;
   width: 100%;
   border: 1px solid #000000;
+  border-radius: 4px;
   text-align: left;
   outline: none;
   font-size: 15px;
