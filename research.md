@@ -34,6 +34,7 @@
 
 <button class="collapsible">Morphological signal processing of flow information in a morphing wing</button>
 <div class="content">
+  <br>
   <p>Birds have vibration-sensitive mechanoreceptors embedded throughout the wing tissue in the leading edge. Flow over the wing will deform the feathers and this vibration signal must then be transferred throughout the feathered array to these mechanoreceptors. This project looks at how different flows result in different vibration responses in the wing, and how those responses are processed by the feathers throughout wing morphing. </p>
 </div>
 
@@ -51,6 +52,8 @@
 <div class="content">
   <p>In a collaboration with Dr Clementine Bodin and Dr Sarah Woolley at McGill University, we are exploring zebra finch learning behaviour in regards to flight and making use of optimisation analysis to postulate the motivation driving learned behaviour.</p>
 </div>
+
+<h3></h3>
 
 <h3>Past Projects</h3>
 
