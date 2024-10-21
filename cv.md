@@ -6,5 +6,7 @@ permalink: /cv/
 
 Please find my CV <a href="/files/JasminWongCV.pdf">here</a>! (last updated: October 2024)
 
-<object data="/files/JasminWongCV.pd" width="1000" height="1000" type='application/pdf'/>
+<h3>Publications</h3>
+
+Harvey, C, Baliga, VB, Wong, JCM, Altshuler, DL, Inman, DJ. 2022. Birds can transition between stable and unstable states via wing morphing. Nature, 603(7902): 648-653. [<a href="https://www.nature.com/articles/s41586-022-04477-8">link</a>]
 
