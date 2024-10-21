@@ -9,7 +9,7 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: #000000;
+  border: 1px solid #000000;
   text-align: left;
   outline: none;
   font-size: 15px;
