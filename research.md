@@ -54,7 +54,9 @@
 <div class="content">
   <p>Wall shear stress (WSS) has been linked to the development of many cardiovascular diseases, including atherosclerosis and aneurysms. The pathology of these diseases is dictated by biological processes regulated by shear-sensitive endothelial cells (ECs) lining the blood vessel which morph in response to WSS signals. Computational fluid simulations used to study and identify vulnerable areas in the blood transport system have not yet accounted for this variable EC shape.</p>
     
-  <p>To address this gap, we developped a computationally inexpensive multiscale algorithm to investigated the effects of microscopic EC morphology on WSS in macroscopic, realistic aorta models. The inclusion of EC geometry resulted in an increase of low time-averaged WSS and high oscillatory shear index (OSI) areas, and large differences in time-dependent WSS in cases with pathologically disturbed flow. For more details on the algorithm, see my thesis <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-87034">here</a>.</p>
+  <p>To address this gap, we developped a computationally inexpensive multiscale algorithm to investigated the effects of microscopic EC morphology on WSS in macroscopic, realistic aorta models. The inclusion of EC geometry resulted in an increase of low time-averaged WSS and high oscillatory shear index (OSI) areas, and large differences in time-dependent WSS in cases with pathologically disturbed flow.</p>
+  
+  <p>For more details on the algorithm, see my thesis <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-87034">here</a>.</p>
 </div>
 
 <script>
