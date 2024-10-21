@@ -5,14 +5,13 @@
   
 .collapsible {
   background-color: #7D9994;
-  color: white;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: 1px solid #000000;
-  border-radius: 10px;
+  border: none;
   text-align: left;
-  outline: 1px solid #000000;
+  outline: 0.5px solid #000000;
   outline-radius: 10px;
   font-size: 15px;
 }
