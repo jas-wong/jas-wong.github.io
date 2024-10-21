@@ -16,3 +16,8 @@ Wong, J. 2016. The effect of endothelial cell morphology on wall shear stress. H
 
 Liu, H, Liang, F, Wong, J, Fujiwara, T, Ye, W, Tsubota, K, Sugawara, M. 2015. Multi-scale modeling of hemodynamics in the cardiovascular system. Acta Mechanica Sinica, 31: 446-464. [<a href="https://link.springer.com/article/10.1007/s10409-015-0416-7">link</a>]
 
+
+<h3>Media</h3>
+
+MorphoTalks. 2024. Bristol Robotics Laboratory. [<a href="https://www.youtube.com/watch?app=desktop&v=ACCohLLZgOc">link</a>]
+Researchers Revealed. 2022. Beaty Biodiversity Museum. [<a href="https://explore.beatymuseum.ubc.ca/researchers-revealed/j_wong/">link</a>]
