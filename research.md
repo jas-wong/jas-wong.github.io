@@ -32,18 +32,24 @@
 
 <h3>Current Projects</h3>
 
-<button class="collapsible">Wing Morphing Induced Changes to Local Mechanical Properties</button>
+<button class="collapsible">Morphological signal processing of flow information in a morphing wing</button>
 <div class="content">
-  <p> 
-    The avian wing is unique in that all active morphing elements are concentrated at the leading edge while the majority of the flight surface is made up of passive, flexible elements. As active morphing changes the overall wing shape, how does the coupled rearrangement of these passive elements affect local stiffness and damping capabilities?</p>
+  <p>Birds have vibration-sensitive mechanoreceptors embedded throughout the wing tissue in the leading edge. Flow over the wing will deform the feathers and this vibration signal must then be transferred throughout the feathered array to these mechanoreceptors. This project looks at how different flows result in different vibration responses in the wing, and how those responses are processed by the feathers throughout wing morphing. </p>
 </div>
-<button class="collapsible">Effects of Wing Stiffness Change to Aeroelastic Responses</button>
+
+<button class="collapsible">Wing morphing-induced effects on aeroelastic responses during gliding flight</button>
 <div class="content">
-  <p>In flight, birds morph their wings to adjust to changing environmental conditions and behavioural goals. Wing morphing induces the rearrangement of a multi-material, multi-component structure resulting in changes in wing stiffness as well as a change in overall shape. Fluid-structure interaction computational modelling is used to explore how wing shape and coupled stiffness changes are beneficial or detrimental under different flight conditions.</p>
+  <p>Wing morphing induces the rearrangement of a multi-material, multi-component feathered structure to effect a shape change. This project quantifies the associated changes in <i>in situ<\i> mechanical properties and then makes use of fluid-structure interaction numerical methods to explore how coupling changes in stiffness to wing morphing change the aeroelastic responses to gliding flight at different speeds.</p>
 </div>
-<button class="collapsible">Comparative Feather Morphology on Aerostructural Performance</button>
+
+<button class="collapsible">Interspecific variation in feather structure</button>
 <div class="content">
-  <p>Feather shape varies dramatically within a wing and between species. With data collected from over 20 species, we explore how individual feather shape, the spacing between them, and their orientation relative to the airflow can affect aeroelastic response and aerodynamic performance. </p>
+  <p>Feather shape varies within a wing and between species. We use geometric morphometrics methods to identify main axes of variation in these feathers from over 20 different species of birds and explore how shape variation is related to flight. </p>
+</div>
+
+<button class="collapsible">Zebra finch learning during flap-bounding flight</button>
+<div class="content">
+  <p>In a collaboration with Dr Clementine Bodin and Dr Sarah Woolley at McGill University, we are exploring zebra finch learning behaviour in regards to flight and making use of optimisation analysis to postulate the motivation driving learned behaviour.</p>
 </div>
 
 <h3></h3>
