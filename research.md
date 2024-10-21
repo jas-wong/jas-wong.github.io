@@ -40,16 +40,19 @@
 
 <button class="collapsible">Wing morphing-induced effects on aeroelastic responses during gliding flight</button>
 <div class="content">
+  <br>
   <p>Wing morphing induces the rearrangement of a multi-material, multi-component feathered structure to effect a shape change. This project quantifies the associated changes in <i>in situ</i> mechanical properties and then makes use of fluid-structure interaction numerical methods to explore how coupling changes in stiffness to wing morphing change the aeroelastic responses to gliding flight at different speeds.</p>
 </div>
 
 <button class="collapsible">Interspecific variation in feather structure</button>
 <div class="content">
+  <br>
   <p>Feather shape varies within a wing and between species. We use geometric morphometrics methods to identify main axes of variation in these feathers from over 20 different species of birds and explore how shape variation is related to flight. </p>
 </div>
 
 <button class="collapsible">Zebra finch learning during flap-bounding flight</button>
 <div class="content">
+  <br>
   <p>In a collaboration with Dr Clementine Bodin and Dr Sarah Woolley at McGill University, we are exploring zebra finch learning behaviour in regards to flight and making use of optimisation analysis to postulate the motivation driving learned behaviour.</p>
 </div>
 
@@ -59,6 +62,7 @@
 
 <button class="collapsible">Multi-scale Modelling of Endothelial Cell Shape on Aorta Haemodynamics</button>
 <div class="content">
+  <br>
   <p>Wall shear stress (WSS) has been linked to the development of many cardiovascular diseases, including atherosclerosis and aneurysms. The pathology of these diseases is dictated by biological processes regulated by shear-sensitive endothelial cells (ECs) lining the blood vessel which morph in response to WSS signals. Computational fluid simulations used to study and identify vulnerable areas in the blood transport system have not yet accounted for this variable EC shape.</p>
     
   <p>To address this gap, we developped a computationally inexpensive multiscale algorithm to investigated the effects of microscopic EC morphology on WSS in macroscopic, realistic aorta models. The inclusion of EC geometry resulted in an increase of low time-averaged WSS and high oscillatory shear index (OSI) areas, and large differences in time-dependent WSS in cases with pathologically disturbed flow.</p>
